@@ -126,19 +126,6 @@ database/seeders/       Development data setup
 tests/Feature/          End-to-end application behavior
 ```
 
-This is similar to the separation you might see in a Django project:
-
-| Laravel | Approximate Django equivalent |
-| --- | --- |
-| Eloquent model | Django model |
-| Migration | Django migration |
-| Form request | Form or serializer validation boundary |
-| Controller | View function or class-based view |
-| Route | URL pattern |
-| Blade view | Django template |
-| Factory | `factory_boy` factory |
-| Seeder | Fixtures or a data-loading command |
-| Policy/gate | Permission or authorization logic |
 
 ## Database model
 
