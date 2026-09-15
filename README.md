@@ -400,40 +400,6 @@ PHP formatting is handled by Laravel Pint:
 vendor/bin/pint --dirty --format agent
 ```
 
-## Common development commands
-
-```bash
-# Show all Artisan commands
-php artisan list
-
-# Show migration status
-php artisan migrate:status
-
-# Run pending migrations
-php artisan migrate
-
-# Rebuild and seed the local database
-php artisan migrate:fresh --seed
-
-# Clear cached configuration
-php artisan config:clear
-
-# List registered routes
-php artisan route:list
-
-# Run tests
-php artisan test --compact
-
-# Format changed PHP files
-vendor/bin/pint --dirty --format agent
-
-# Start the Laravel development server
-php artisan serve
-
-# Start Vite
-npm run dev
-```
-
 ## Important Laravel concepts demonstrated
 
 ### Migrations define database structure
